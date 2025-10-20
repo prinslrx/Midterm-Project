@@ -2,11 +2,11 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background: linear-gradient(to bottom right, #f4f4f4, #eaeaea); /* soft gray gradient */
+  background: linear-gradient(to bottom right, #f4f4f4, #eaeaea);
 }
 
 header {
-  background: #555555; /* medium gray */
+  background: #555555;
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -35,10 +35,15 @@ footer {
 .contact-container {
   max-width: 900px;
   margin: 40px auto;
-  background: white;
   border-radius: 15px;
   padding: 40px;
+  color: #333;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+  /* Background image */
+  background: 
+    linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+    url("https://www.ciaalliance.com/wp-content/uploads/sites/6/sites/6/2023/08/CIAA-Contact-Us.jpg") center/cover no-repeat;
 }
 
 .contact-header {
@@ -52,14 +57,7 @@ footer {
 }
 
 .contact-header p {
-  color: #666666;
-}
-
-.contact-image {
-  width: 200px;
-  border-radius: 12px;
-  margin-bottom: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  color: #555;
 }
 
 /* contact info */
@@ -73,7 +71,7 @@ footer {
 
 .contact-info p {
   font-size: 1.1em;
-  background: #dcdcdc;
+  background: rgba(220,220,220,0.8);
   padding: 10px 15px;
   border-radius: 8px;
   width: 80%;
@@ -104,7 +102,7 @@ footer {
 }
 
 .contact-form button {
-  background: #808080; /* light gray button to fit theme */
+  background: #808080;
   color: white;
   border: none;
   padding: 12px;
@@ -127,9 +125,5 @@ footer {
 
   .contact-info p {
     width: 100%;
-  }
-
-  .contact-image {
-    width: 150px;
   }
 }
