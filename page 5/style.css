@@ -2,11 +2,11 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background: #f4f6f8;
+  background: linear-gradient(135deg, #e0e0e0, #f4f4f4); /* Light gray gradient */
 }
 
 header {
-  background: #004aad;
+  background: #4A90E2; /* Blue accent color */
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -20,12 +20,13 @@ nav a {
 }
 
 nav a:hover, .active {
+  color: #cce0ff; /* lighter blue on hover */
   text-decoration: underline;
 }
 
 footer {
   text-align: center;
-  background: #004aad;
+  background: #4A90E2;
   color: white;
   padding: 10px 0;
   margin-top: 30px;
@@ -47,12 +48,12 @@ footer {
 }
 
 .contact-header h2 {
-  color: #004aad;
+  color: #333333; /* Dark gray */
   font-size: 1.8em;
 }
 
 .contact-header p {
-  color: #555;
+  color: #666666; /* Medium text gray */
 }
 
 .contact-info {
@@ -65,7 +66,7 @@ footer {
 
 .contact-info p {
   font-size: 1.1em;
-  background: #e9efff;
+  background: #e0e0e0; /* Light gray info box */
   padding: 10px 15px;
   border-radius: 8px;
   width: 80%;
@@ -81,7 +82,7 @@ footer {
 .contact-form input,
 .contact-form textarea {
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #bbb;
   border-radius: 6px;
   font-size: 1em;
   outline: none;
@@ -90,12 +91,12 @@ footer {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #004aad;
-  box-shadow: 0 0 5px rgba(0,74,173,0.2);
+  border-color: #4A90E2; /* Blue accent on focus */
+  box-shadow: 0 0 5px rgba(74,144,226,0.3);
 }
 
 .contact-form button {
-  background: #004aad;
+  background: #4A90E2; /* Blue button */
   color: white;
   border: none;
   padding: 12px;
@@ -107,7 +108,7 @@ footer {
 }
 
 .contact-form button:hover {
-  background: #003780;
+  background: #357ABD; /* Darker blue on hover */
 }
 
 /* === RESPONSIVE DESIGN === */
