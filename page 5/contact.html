@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Scholarship Portal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="scholarships.html">Scholarships</a>
+      <a href="apply.html">Apply</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact-container">
+    <div class="contact-header">
+      <h2>We’d Love to Hear From You</h2>
+      <p>Have questions about scholarships or applications? Reach us anytime!</p>
+    </div>
+
+    <div class="contact-info">
+      <p><strong>Email:</strong> ctuargao@gmail.com</p>
+      <p><strong>Phone:</strong> 0987-465-5321</p>
+      <p><strong>Address:</strong> Cebu Technological University</p>
+    </div>
+
+    <form class="contact-form" onsubmit="return sendMessage()">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Scholarship Information System | Cebu Technological University</p>
+  </footer>
+
+  <script>
+    function sendMessage() {
+      alert("✅ Thank you for contacting us! We’ll get back to you soon.");
+      return false; // prevents page reload
+    }
+  </script>
+</body>
+</html>
