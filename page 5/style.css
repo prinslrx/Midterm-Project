@@ -2,11 +2,11 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background: linear-gradient(135deg, #e0e0e0, #f4f4f4); /* Light gray gradient */
+  background: linear-gradient(to bottom right, #f4f4f4, #eaeaea); /* soft gray gradient */
 }
 
 header {
-  background: #4A90E2; /* Blue accent color */
+  background: #555555; /* medium gray */
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -20,13 +20,12 @@ nav a {
 }
 
 nav a:hover, .active {
-  color: #cce0ff; /* lighter blue on hover */
   text-decoration: underline;
 }
 
 footer {
   text-align: center;
-  background: #4A90E2;
+  background: #555555;
   color: white;
   padding: 10px 0;
   margin-top: 30px;
@@ -48,14 +47,22 @@ footer {
 }
 
 .contact-header h2 {
-  color: #333333; /* Dark gray */
+  color: #333333;
   font-size: 1.8em;
 }
 
 .contact-header p {
-  color: #666666; /* Medium text gray */
+  color: #666666;
 }
 
+.contact-image {
+  width: 200px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* contact info */
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -66,13 +73,14 @@ footer {
 
 .contact-info p {
   font-size: 1.1em;
-  background: #e0e0e0; /* Light gray info box */
+  background: #dcdcdc;
   padding: 10px 15px;
   border-radius: 8px;
   width: 80%;
   text-align: center;
 }
 
+/* form */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -91,12 +99,12 @@ footer {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #4A90E2; /* Blue accent on focus */
-  box-shadow: 0 0 5px rgba(74,144,226,0.3);
+  border-color: #777;
+  box-shadow: 0 0 5px rgba(85,85,85,0.3);
 }
 
 .contact-form button {
-  background: #4A90E2; /* Blue button */
+  background: #808080; /* light gray button to fit theme */
   color: white;
   border: none;
   padding: 12px;
@@ -108,7 +116,7 @@ footer {
 }
 
 .contact-form button:hover {
-  background: #357ABD; /* Darker blue on hover */
+  background: #666666;
 }
 
 /* === RESPONSIVE DESIGN === */
@@ -119,5 +127,9 @@ footer {
 
   .contact-info p {
     width: 100%;
+  }
+
+  .contact-image {
+    width: 150px;
   }
 }
