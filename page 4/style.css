@@ -10,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: rgb(130, 106, 251); /* Fixed: added rgb() properly */
+  background: rgb(190, 181, 235); 
 }
 .container {
   position: relative;
@@ -104,7 +104,7 @@ button:hover {
     row-gap: 10px;
   }
 }
-=======
+
 * {
   margin: 0;
   padding: 0;
@@ -197,10 +197,10 @@ button {
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
-  background: rgb(130, 106, 251);
+  background: rgb(233, 158, 218);
 }
 button:hover {
-  background: rgb(88, 56, 250);
+  background: rgb(84, 206, 233);
 }
 @media screen and (max-width: 500px) {
   .column {
@@ -211,4 +211,3 @@ button:hover {
     row-gap: 10px;
   }
 }
-
