@@ -1,0 +1,122 @@
+/* === GENERAL STYLES === */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+}
+
+header {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+nav a:hover, .active {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background: #004aad;
+  color: white;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+/* === CONTACT PAGE STYLES === */
+.contact-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-header h2 {
+  color: #004aad;
+  font-size: 1.8em;
+}
+
+.contact-header p {
+  color: #555;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  font-size: 1.1em;
+  background: #e9efff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: 80%;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #004aad;
+  box-shadow: 0 0 5px rgba(0,74,173,0.2);
+}
+
+.contact-form button {
+  background: #004aad;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #003780;
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 600px) {
+  .contact-container {
+    padding: 20px;
+  }
+
+  .contact-info p {
+    width: 100%;
+  }
+}
