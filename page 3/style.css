@@ -15,6 +15,9 @@ body {
   grid-gap: 40px 60px; 
   justify-content: center;
   padding: 40px;
+  color: white;
+  box-shadow: 0 8px 25px #fffcfc;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 
